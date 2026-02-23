@@ -1,1 +1,0 @@
-(Manuales finales y validaciones)
