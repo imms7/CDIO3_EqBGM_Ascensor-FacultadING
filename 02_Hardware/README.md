@@ -6,7 +6,7 @@ El sistema se basa en una arquitectura de **control embebido** diseñada para ej
 
 ### 🧠 Componentes 
 
-* **🕹️ Microcontrolador (Arduino Uno R3):** Es el cerebro del sistema que procesa las señales de entrada de los botones y sensores para gestionar el movimiento del motor mediante lógica de control digital.
+* **🕹️ Microcontrolador (ESP32):** Es el cerebro del sistema que procesa las señales de entrada de los botones y sensores para gestionar el movimiento del motor mediante lógica de control digital.
 * **⚙️ Servomotor (DS04-NFC 360 Grados):** Actuador principal encargado de la tracción. Al ser de rotación continua, permite el desplazamiento de la cabina a través de los 4 pisos sin las limitaciones de ángulo de un servo estándar.
 
 ---
