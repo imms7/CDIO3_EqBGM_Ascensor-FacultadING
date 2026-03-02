@@ -16,7 +16,7 @@ Esta carpeta contiene el código fuente desarrollado en **C++/Arduino** para la 
 ### 🛠️ Especificaciones Técnicas
 
 * **Plataforma:** Arduino IDE
-* **Microcontrolador:** Arduino Uno R3 (Atmega328P)
+* **Microcontrolador:** ESP32 (Atmega328P)
 * **Librerías utilizadas:** * `Servo.h`: Para el control del motor de rotación continua.
   * `EEPROM.h`: (Opcional) Para guardar la última posición en caso de pérdida de energía.
 
