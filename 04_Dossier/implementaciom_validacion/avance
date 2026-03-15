@@ -1,0 +1,51 @@
+## ⚙️ Implementación y Validación del Sistema
+
+Esta sección describe el estado de manufactura del prototipo, el protocolo de pruebas definido y la gestión de errores durante el ensamblaje del sistema de ascensor.
+
+---
+
+### ✅ Estado de Manufactura (MAHD)
+
+El prototipo físico fue comparado con el diseño del sistema para verificar que la implementación corresponde a los planos y diagramas definidos en la fase de diseño.
+
+| Elemento                 | Diseño                    | Implementación               |       Estado |
+|--------------------------|---------------------------|------------------------------|-------------|
+| Sistema de control       | Microcontrolador          | Arduino implementado         | ✅ Correcto |
+| Sistema de accionamiento | Motor para desplazamiento | Motor DC instalado           | ✅ Correcto |
+| Sensores de posición     | Sensores de piso          | Sensores instalados          | Proceso     |
+| Botonera                 | Pulsadores                | Pulsadores funcionales       | Proceso     |
+| Estructura               | Modelo de ascensor        | Estructura física construida | ✅ Correcto |
+
+---
+
+### 🧪 Protocolo de Pruebas
+
+Se definieron casos de prueba para validar el funcionamiento del sistema electrónico.
+
+| Caso de prueba            | Descripción             | Resultado esperado              |
+|---------------------------|-------------------------|---------------------------------|
+| Encendido del sistema     | Verificar alimentación  | Sistema inicia correctamente    |
+| Lectura de botones        | Presionar botón de piso |  PROCESO                        |
+| Movimiento del motor      | Activar desplazamiento  | PROCESO                         |
+| Detección de piso         | Sensor detecta posición | PROCESO                         |
+| Detención del ascensor    | Llegada al piso         | PROCESO                         |
+**Procedimiento**
+
+1. Encender el sistema.
+2. Presionar un botón de piso.
+3. Verificar el movimiento del motor.
+4. Confirmar detección del sensor.
+5. Validar detención en el piso correspondiente.
+
+---
+
+### ⚠️ Gestión de Errores
+
+Durante la implementación se identificaron algunos fallos técnicos.
+
+| Problema                       | Causa              | Acción Correctiva         |
+|--------------------------------|--------------------|---------------------------|
+| Motor no respondía             | Error en codigo    | Corrección de codigo      |
+
+
+
