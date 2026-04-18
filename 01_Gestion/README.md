@@ -9,4 +9,14 @@ Este directorio centraliza toda la documentación administrativa, planificación
 * **Cronogramas**: Planificación temporal del proyecto, hitos principales y diagramas de Gantt.
 
 ---
-*Última actualización: $*
+## Dashboard MAHD
+Enlace del tablero de seguimiento y evidencia:
+
+[Ver Dashboard MAHD] (https://drive.google.com/drive/folders/1UvnTcePurC756GzwkTvJ4SNMuztmmq4X)
+
+## Evidencias relacionadas
+- Arquitectura del sistema
+- Matriz de madurez
+- Evidencias de pruebas
+- Portafolio del proyecto
+ 
