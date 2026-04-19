@@ -1,3 +1,13 @@
 En el siguiente link podra encontrar el archivo Dossier Version 1: 
 
 https://docs.google.com/document/d/1E2IU4b1xWJecg5cjr_CJVRBhgwKe3dvkCkwf7aIzHvI/edit?tab=t.0
+
+El proyecto contempla el diseño y desarrollo de una solución de accesibilidad vertical, apoyada en una maqueta física y en un sistema electrónico de control que permiten representar de manera tangible la problemática de acceso entre pisos y validar el funcionamiento básico de la propuesta.
+
+En la parte estructural, se planteó la fabricación de una maqueta en MDF, material seleccionado por su facilidad de corte, bajo costo, estabilidad y buena presentación para prototipos a escala. Dentro de esta estructura se construyeron módulos de escaleras de conexión entre pisos, compuestos por base, peldaños y barandas laterales. Estas escaleras representan la circulación vertical actual del edificio y permiten evidenciar que el acceso entre niveles depende de un sistema convencional que no resulta adecuado para todos los usuarios, especialmente para personas con movilidad reducida. Por tanto, su inclusión en la maqueta no solo cumple una función visual, sino que refuerza la justificación de una alternativa accesible.
+
+En la parte electrónica, se desarrolló un prototipo de validación utilizando una tarjeta Arduino Uno, una protoboard, pulsadores, resistencias, indicadores LED y un microservo. Este montaje permitió verificar la lógica básica del sistema de control, simulando entradas manuales a través de pulsadores y observando respuestas del sistema mediante señales visuales y movimiento mecánico. Los LEDs se utilizaron como indicadores de estado, mientras que el servomotor actuó como elemento de prueba para representar el accionamiento de un mecanismo.
+
+Como evolución del montaje temporal en protoboard, también se elaboró una PCB monocara, en la cual se definieron pistas de cobre y perforaciones para la futura integración de componentes. Esta placa representa una etapa más avanzada del diseño, ya que permite sustituir conexiones provisionales por una solución más estable, compacta y confiable, adecuada para una implementación mejor organizada del circuito.
+
+En conjunto, la maqueta estructural, el prototipo electrónico y la PCB constituyen evidencias del avance del proyecto en sus componentes físico, funcional y técnico. La estructura en MDF permite contextualizar el problema espacial de accesibilidad; el montaje con Arduino valida la lógica de control; y la PCB demuestra el proceso de consolidación del diseño electrónico hacia una integración más formal. Todo esto aporta soporte al desarrollo del sistema propuesto y fortalece la trazabilidad del trabajo dentro del dossier.
