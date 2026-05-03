@@ -59,8 +59,8 @@ Establecer un control formal de costos del proyecto, permitiendo:
 
 | Archivo | Descripción | Ubicación |
 |---|---|---|
-| `esquematico_ascensor.kicad_sch` | Esquemático electrónico del sistema | GitHub `/5_Resultados_Diseno/` |
-| `diseno_mecanico_ascensor.stl` | Modelo 3D de la estructura | GitHub `/5_Resultados_Diseno/` |
+| `esquematico_ascensor.kicad_sch` | Esquemático electrónico del sistema | GitHub `/5_Diseño_Detallado/` |
+| `diseno_mecanico_ascensor.stl` | Modelo 3D de la estructura | GitHub `/5_Diseño_Detallado/` |
 | `Dashboard_MAHD.xlsx` | Dashboard de seguimiento MAHD | GitHub (raíz) |
 | `Protocolos_de_prueba.xlsx` | Protocolos de validación y pruebas | GitHub `/4_Calidad_y_Pruebas/` |
 | `protocolo_costos.md` | Documento de auditoría de costos | GitHub `/4_Calidad_y_Pruebas/` |
@@ -75,7 +75,7 @@ Establecer un control formal de costos del proyecto, permitiendo:
 | Motor DC | Foto + comprobante | `/media/` |
 | Driver L298N | Link proveedor | `/docs/referencias/` |
 | Sensores | Registro fotográfico | `/media/` |
-| Estructura 3D | Archivo STL + foto impresión | `/5_Resultados_Diseno/` |
+| Estructura 3D | Archivo STL + foto impresión | `/5_Diseño:_Detallado/` |
 
 ---
 
