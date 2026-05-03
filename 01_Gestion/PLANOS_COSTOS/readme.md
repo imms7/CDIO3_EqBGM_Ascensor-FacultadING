@@ -1,6 +1,6 @@
 # Protocolo de Auditoría de Costos — Proyecto Ascensor Facultad ING
 
- 
+**Versión:** 2.0  
 **Fecha:** 2026
 
 **Responsable:** Equipo CDIO III Ascensor Facultad ING
