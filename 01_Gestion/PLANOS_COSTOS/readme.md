@@ -1,4 +1,4 @@
-# 💰 Protocolo de Auditoría de Costos — Proyecto Ascensor Facultad ING
+# Protocolo de Auditoría de Costos — Proyecto Ascensor Facultad ING
 
  
 **Fecha:** 2026
@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 Establecer un control formal de costos del proyecto, permitiendo:
 - Comparar costos estimados vs reales
 - Detectar desviaciones
@@ -15,7 +15,7 @@ Establecer un control formal de costos del proyecto, permitiendo:
 
 ---
 
-## 📦 Tabla de Componentes (Valores Reales Colombia 2026)
+##  Tabla de Componentes (Valores Reales Colombia 2026)
 
 | Ítem | Componente | Cantidad | Costo Unitario (COP) | Costo Total (COP) | Fuente | Estado |
 |------|------------|----------|----------------------|-------------------|--------|--------|
@@ -30,7 +30,7 @@ Establecer un control formal de costos del proyecto, permitiendo:
 
 ---
 
-## 📊 Resumen de Costos
+##  Resumen de Costos
 
 | Categoría | Costo (COP) |
 |----------|------------|
@@ -42,64 +42,49 @@ Establecer un control formal de costos del proyecto, permitiendo:
 
 ---
 
-## 📉 Comparación Estimado vs Real
+### 📊 Resumen Real vs Estimado
 
-| Tipo | Valor (COP) |
-|------|------------|
-| Estimado Inicial | 100000 |
-| Costo Real | 108000 |
-| Diferencia | +8000 |
+| Categoría | Estimado | Real | Δ |
+|---|:---:|:---:|:---:|
+| Electrónica y Sensores | $60.000 | $59.000 | -$1.000 |
+| Potencia y Energía | $20.000 | $20.000 | $0 |
+| Mecánica e Insumos | $20.000 | $29.000 | +$9.000 |
+| **TOTAL** | **$100.000** | **$108.000** | **+$8.000** |
 
-📌 **Variación porcentual:**
-\[
-\frac{108000 - 100000}{100000} \times 100 = 8\%
-\]
+> 🟡 El proyecto presenta una variación del **+8%**, manteniéndose dentro de un rango de **riesgo controlado** según criterios MAHD.
 
 ---
 
-## ⚠️ Criterios de Evaluación MAHD
+## 📁 4. Referencias de Archivos
 
-| Rango | Estado |
-|------|--------|
-| 0% - 5% | ✅ Controlado |
-| 5% - 10% | 🟡 Riesgo |
-| >10% | 🔴 Crítico |
-
-👉 Resultado actual: **🟡 RIESGO CONTROLADO**
-
----
-
-## 🔍 Evidencia
-
-- Facturas: `/docs/costos/`
-- Fotos de componentes: `/media/`
-- Links de compra: README.md o `/docs/referencias/`
+| Archivo | Descripción | Ubicación |
+|---|---|---|
+| `esquematico_ascensor.kicad_sch` | Esquemático electrónico del sistema | GitHub `/5_Resultados_Diseno/` |
+| `diseno_mecanico_ascensor.stl` | Modelo 3D de la estructura | GitHub `/5_Resultados_Diseno/` |
+| `Dashboard_MAHD.xlsx` | Dashboard de seguimiento MAHD | GitHub (raíz) |
+| `Protocolos_de_prueba.xlsx` | Protocolos de validación y pruebas | GitHub `/4_Calidad_y_Pruebas/` |
+| `protocolo_costos.md` | Documento de auditoría de costos | GitHub `/4_Calidad_y_Pruebas/` |
 
 ---
 
-## 🧠 Conclusión de Ingeniería
+## 🔍 5. Trazabilidad de Evidencia (Para Auditoría)
 
-El sistema presenta una variación del **8% respecto al presupuesto inicial**, lo que lo ubica en un estado de **riesgo controlado**.
-
-Esto indica que:
-- La estimación inicial fue cercana a la realidad del mercado colombiano
-- Existen variaciones normales por disponibilidad y proveedor
-- El proyecto sigue siendo económicamente viable
-
----
-
-## 🚨 Regla MAHD
-
-> "Todo costo reportado debe tener evidencia verificable.  
-Costo sin evidencia = NO válido en auditoría."
+| Componente | Evidencia | Ubicación |
+|-----------|----------|----------|
+| ESP32 | Factura / Link de compra | `/docs/costos/` |
+| Motor DC | Foto + comprobante | `/media/` |
+| Driver L298N | Link proveedor | `/docs/referencias/` |
+| Sensores | Registro fotográfico | `/media/` |
+| Estructura 3D | Archivo STL + foto impresión | `/5_Resultados_Diseno/` |
 
 ---
 
-## 📌 Nota de Ingeniería
+## Nota de Ingeniería
 
-Los costos fueron calculados con base en:
-- Promedios de tiendas electrónicas en Colombia
-- Mercado nacional (2025–2026)
-- Disponibilidad real de componentes
+La variación observada se debe principalmente a:
+- Incremento en costos de materiales mecánicos
+- Ajustes en insumos de fabricación
+- Disponibilidad de proveedores locales
 
-Esto garantiza trazabilidad y validez en auditoría técnica.
+A pesar de esto, el sistema mantiene **viabilidad económica** y control presupuestal bajo criterios MAHD.
+
