@@ -21,6 +21,3 @@ Haz clic en cada enlace para ver el detalle de cada sesión:
 
 
 ---
-
-### 🧠 Nota
-Estas bitácoras permiten evidenciar la trazabilidad del proyecto, la toma de decisiones y el avance progresivo del sistema **LANCEA**, desde su fase conceptual hasta la integración final.
