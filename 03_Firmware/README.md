@@ -1,12 +1,12 @@
 # 💻 Firmware: Lógica de Control y Automatización
 
-Esta carpeta contiene el código fuente desarrollado en **C++/Arduino** para la gestión inteligente del ascensor de 4 niveles. El firmware actúa como el sistema operativo del prototipo, procesando señales en tiempo real para garantizar un transporte seguro.
+Esta carpeta contiene el código fuente desarrollado en **C++/Arduino** para la gestión inteligente del ascensor de 3 niveles. El firmware actúa como el sistema operativo del prototipo, procesando señales en tiempo real para garantizar un transporte seguro.
 
 ---
 
 ### 🚀 Funcionalidades Principales
 
-* **🔢 Gestión de Niveles:** Algoritmo de priorización para atender llamados de los 4 pisos de forma eficiente.
+* **🔢 Gestión de Niveles:** Algoritmo de priorización para atender llamados de los 3 pisos de forma eficiente.
 * **🎯 Control de Precisión:** Manejo de la señal PWM para el **Servomotor DS04-NFC**, permitiendo arranques y paradas suaves.
 * **🛡️ Protocolos de Seguridad:** Interrupciones lógicas activadas por los **Finales de Carrera** para evitar colisiones mecánicas.
 * **📟 Telemetría Básica:** Envío de estados y errores al Monitor Serial para facilitar la depuración (Debugging).
