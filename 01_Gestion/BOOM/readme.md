@@ -5,7 +5,6 @@ BOOM
 | Componente | Cantidad | Especificación | Referencia Datasheet |
 | :--- | :---: | :--- | :--- |
 | **Microcontrolador** | 1 | Arduino Uno R3 / Nano | A000066 |
-| **Sensores** | 4 | Interruptor Fin de Carrera | AR1759 |
 | **Actuadores** | 1 | Servomotor SG 90 | Servo SG 90 |
 | **Interfaz** | 3 | Pulsadores NA 4 pines | PUSH-4 |
 | **Estructura** | 1 | Set de piezas MDF / Impresión 3D | Archivos STL |
