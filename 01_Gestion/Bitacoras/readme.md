@@ -1,4 +1,4 @@
-## 📓 Bitácoras de Reunión — Proyecto LANCEA
+## 📓 Bitácoras de Reunión — Proyecto AscensorFacIng
 
 Para el registro de reuniones y avances del proyecto, se realizaron bitácoras donde se documenta el avance del proyecto.  
 Haz clic en cada enlace para ver el detalle de cada sesión:
