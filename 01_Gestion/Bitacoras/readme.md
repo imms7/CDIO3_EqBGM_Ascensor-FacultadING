@@ -1,4 +1,4 @@
-## 📓 Bitácoras de Reunión — Proyecto AscensorFacIng
+## 📓 Bitácoras de Reunión — Proyecto AscFacultadIng
 
 Para el registro de reuniones y avances del proyecto, se realizaron bitácoras donde se documenta el avance del proyecto.  
 Haz clic en cada enlace para ver el detalle de cada sesión:
