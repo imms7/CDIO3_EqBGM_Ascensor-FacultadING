@@ -92,7 +92,7 @@ Ejemplo:
 
 ---
 
-## 🚨 Observaciones de Ingeniería
+## Observaciones de Ingeniería
 
 Durante la integración se detectaron riesgos asociados a:
 
@@ -104,14 +104,4 @@ Durante la integración se detectaron riesgos asociados a:
 Las acciones correctivas se documentan formalmente dentro de la retrospectiva IPAC.
 
 ---
-
-## 🎯 Próximas Validaciones
-
-- [ ] Prueba carga máxima
-- [ ] Validación sistema de frenado
-- [ ] Integración LCD
-- [ ] Validación accesibilidad
-- [ ] Pruebas finales V&V
-- [ ] Actualización Dashboard MAHD
-
 
