@@ -15,7 +15,7 @@ A continuación, se presenta el estado de los test ejecutados durante la fase ac
 | ID Prueba | Subsistema | Objetivo Principal | Resultado Medido | Estado |
 | :--- | :--- | :--- | :--- | :---: |
 | **TEST-HW-01** | Estructura | Validar alineación y estabilidad mecánica del sistema | Desviación estructural menor a **2 mm** | ✅ **PASS** |
-| **TEST-FW-01** | ESP32 + Lógica | Verificar respuesta a llamada de pisos | Tiempo promedio respuesta: **1.4 s** | ✅ **PASS** |
+| **TEST-FW-01** | Arduino UNO + Lógica | Verificar respuesta a llamada de pisos | Tiempo promedio respuesta: **1.4 s** | ✅ **PASS** |
 | **TEST-ELEC-01** | Driver L298N | Validar alimentación bajo carga | Caída tensión: **0.18 V** | ✅ **PASS** |
 | **TEST-SENS-01** | Sensores fin de carrera | Validar detección correcta de nivel | 100% de detección en 15 pruebas | ✅ **PASS** |
 | **TEST-SEG-01** | Sistema de parada | Verificar activación de seguridad | Activación correcta < **500 ms** | 🟡 **VALIDANDO** |
@@ -114,6 +114,4 @@ Las acciones correctivas se documentan formalmente dentro de la retrospectiva IP
 - [ ] Pruebas finales V&V
 - [ ] Actualización Dashboard MAHD
 
----
 
-*Documento mantenido por: Equipo BGM — Ingeniería Electrónica / CDIO*
