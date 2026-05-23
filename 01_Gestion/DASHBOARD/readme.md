@@ -3,7 +3,6 @@
 **Proyecto:** Ascensor Facultad Ingeniería UQ  
 **Versión:** 2.0  
 **Fecha actualización:** 2026-05-23  
-**Equipo:** BGM  
 **Metodología:** CDIO + MAHD  
 
 ---
@@ -149,18 +148,26 @@
 
 ## 🔗 Evidencias
 
+📊 Dashboard MAHD:
+
+:contentReference[oaicite:0]{index=0}
+
 📁 `/4_Calidad_y_Pruebas/` → Protocolos V&V
 
 📁 `/5_Resultados_Diseno/` → Planos, esquemáticos y CAD
 
-📁 `/media/videos/` → Evidencias de pruebas
+📁 `/media/videos/` → Evidencias experimentales y pruebas
 
-📁 `/docs/` → Costos, IPAC y documentación
+📁 `/docs/` → Costos, IPAC y documentación técnica
 
-📊 `Dashboard_MAHD.xlsx`
+📄 `Retrospectiva_IPAC.md`
+
+📄 `protocolo_costos.md`
+
+📄 `Dashboard_MAHD.xlsx`
 
 ---
 
-## 🧠 Estado de Ingeniería
+## Estado de Ingeniería
 
 > El proyecto evolucionó de una implementación empírica hacia un proceso de ingeniería basado en evidencia, trazabilidad y validación continua mediante Dashboard MAHD.
