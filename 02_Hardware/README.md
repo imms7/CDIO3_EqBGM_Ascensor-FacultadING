@@ -1,6 +1,6 @@
 🏗️ Descripción del Hardware del Prototipo
 
-El sistema se basa en una arquitectura de control embebido diseñada para ejecutar la lógica de un ascensor de 3 pisos de manera segura, organizada y eficiente.
+El sistema se basa en una arquitectura de control embebido diseñada para ejecutar la lógica de un ascensor de 3 pisos (empieza desde el piso) de manera segura, organizada y eficiente.
 
 🧠 Componentes
 🕹️ Microcontrolador (Arduino Uno)
