@@ -51,12 +51,12 @@
 
 | # | Acción | Tipo | Estado | Responsable |
 |---|---|---|---|---|
-| AC-01 | Separar control de sensores y lógica de movimiento mediante máquina de estados (FSM) | Firmware | 🚧 En progreso | Equipo Software |
-| AC-02 | Implementar filtrado y desacoplo eléctrico para sensores | Hardware | 📋 Planificado | Equipo Electrónico |
-| AC-03 | Añadir capacitores y mejorar distribución de alimentación | Hardware | 🚧 En progreso | Equipo Electrónico |
-| AC-04 | Reforzar estructura y ajustar alineación mecánica | Mecánica | 🚧 En progreso | Equipo Mecánico |
-| AC-05 | Recalibrar sensores y sistema de nivelación | Integración | 📋 Planificado | Equipo Integración |
-| AC-06 | Validar sistema de frenado bajo escenarios reales | Seguridad | 📋 Planificado | Equipo Calidad |
+| 01 | Separar control de sensores y lógica de movimiento mediante máquina de estados (FSM) | Firmware | 🚧 En progreso | Equipo Software |
+| 02 | Implementar filtrado y desacoplo eléctrico para sensores | Hardware | 📋 Planificado | Equipo Electrónico |
+| 03 | Añadir capacitores y mejorar distribución de alimentación | Hardware | 🚧 En progreso | Equipo Electrónico |
+| 04 | Reforzar estructura y ajustar alineación mecánica | Mecánica | 🚧 En progreso | Equipo Mecánico |
+| 05 | Recalibrar sensores y sistema de nivelación | Integración | 📋 Planificado | Equipo Integración |
+| 06 | Validar sistema de frenado bajo escenarios reales | Seguridad | 📋 Planificado | Equipo Calidad |
 
 ---
 
