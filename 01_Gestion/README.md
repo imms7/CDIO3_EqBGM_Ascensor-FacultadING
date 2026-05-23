@@ -13,7 +13,7 @@ Este directorio centraliza toda la documentación administrativa, planificación
 ## Dashboard MAHD
 Enlace del tablero de seguimiento y evidencia:
 
-[Ver Dashboard MAHD] (https://drive.google.com/drive/folders/1UvnTcePurC756GzwkTvJ4SNMuztmmq4X)
+[Ver Dashboard MAHD] (https://docs.google.com/spreadsheets/d/1olTbqtsNHQLktUmsNjpX3Kluv0PxCd3aXZpZllkpnQA/edit?gid=1975843790#gid=1975843790)
 
 ## Evidencias relacionadas
 - Arquitectura del sistema
