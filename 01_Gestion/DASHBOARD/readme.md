@@ -1,20 +1,166 @@
-DASHBORARD
-# 📊 Dashboard del Proyecto: Ascensor Facultad ING
+# 📊 Dashboard MAHD — Proyecto Ascensor Facultad Ingeniería UQ
 
-| Fase | Estado | Responsable | Próximo Hito |
-| :--- | :---: | :--- | :--- |
-| **01 Gestión** | ✅ 90% | Equipo BGM | Cierre de Dossier |
-| **02 Hardware** | 🟡 70% | Mecánica/Electrónica | Ensamblaje Estructura |
-| **03 Firmware** | 🟢 85% | Software | Integración con LCD |
-| **04 Dossier** | 🟡 50% | Todo el Equipo | Validación Final |
+**Proyecto:** Ascensor Facultad Ingeniería UQ  
+**Versión:** 2.0  
+**Fecha actualización:** 2026-05-23  
+**Equipo:** BGM  
+**Metodología:** CDIO + MAHD  
 
-### 🚀 Progreso de Sprints
-- [x] Diseño de planos (DWG)
+---
+
+## 🚦 Estado General del Proyecto
+
+| Área | Estado | Avance | Responsable | Próximo Hito |
+|:---|:---:|:---:|---|---|
+| **01 Gestión y Planeación** | 🟢 | 95% | Equipo BGM | Cierre documental |
+| **02 Diseño Hardware** | 🟡 | 80% | Equipo Mecánico/Electrónico | Integración estructura y pruebas |
+| **03 Firmware y Control** | 🟢 | 85% | Equipo Software | Integración LCD + sensores |
+| **04 Calidad y Pruebas** | 🟡 | 65% | Equipo Calidad | Validación V&V |
+| **05 Dashboard MAHD** | 🟢 | 90% | Equipo BGM | Auditoría S12 |
+| **06 Dossier Técnico** | 🟡 | 70% | Equipo completo | Consolidación final |
+
+---
+
+## 📈 Progreso de Sprints
+
+### Sprint 1 — Diseño y Planeación
+- [x] Definición del problema
+- [x] Análisis de interesados
+- [x] Contexto y descripción
+- [x] Requerimientos funcionales
+- [x] Requerimientos no funcionales
+- [x] Diseño conceptual
+
+---
+
+### Sprint 2 — Diseño y Arquitectura
+
+- [x] Diseño de planos DWG
 - [x] Selección de componentes (BOM)
-- [x] Lógica base en Arduino
-- [ ] Pruebas de carga máxima
-- [ ] Documentación IPAC completa
+- [x] Arquitectura del sistema
+- [x] Diseño electrónico preliminar
+- [x] Protocolo de costos
+- [x] Integración Dashboard MAHD
 
-### ⚠️ Riesgos Críticos
-1. **Mecánico:** Alineación de los rieles del ascensor.
-2. **Eléctrico:** Caída de tensión en el puente H L298N.
+---
+
+### Sprint 3 — Implementación
+
+- [x] Lógica base Arduino
+- [x] Configuración sensores
+- [x] Implementación inicial control
+- [x] Integración GitHub
+- [ ] Integración LCD
+- [ ] Integración completa subsistemas
+
+---
+
+### Sprint 4 — Validación
+
+- [ ] Pruebas de carga máxima
+- [ ] Validación de frenado
+- [ ] Pruebas de nivelación
+- [ ] Validación accesibilidad
+- [ ] Documentación IPAC final
+
+---
+
+## 📋 Estado MAHD
+
+| Indicador | Estado |
+|---|:---:|
+| Arquitectura definida | ✅ |
+| Requerimientos trazables | ✅ |
+| Evidencias en GitHub | ✅ |
+| Costos auditables | ✅ |
+| Dashboard desplegado | ✅ |
+| Protocolos de prueba | 🟡 |
+| Validación física | 🟡 |
+| Integración final | 🟡 |
+
+### Nivel de Madurez Actual:
+
+🟡 **Nivel Empírico → Transición a Ingeniería**
+
+**Observación:** El proyecto ya posee estructura, documentación y trazabilidad. Se requiere completar pruebas físicas y validación formal para alcanzar nivel Ingeniería.
+
+---
+
+## ⚠️ Riesgos Críticos
+
+### Riesgo Mecánico
+**Descripción:** Posible desalineación de rieles y estructura.
+
+**Impacto:**
+- Vibraciones
+- Movimiento inestable
+- Error de posicionamiento
+
+**Mitigación:**
+- Ajuste estructural
+- Validación dimensional
+- Pruebas de desplazamiento
+
+---
+
+### Riesgo Eléctrico
+
+**Descripción:** Caída de tensión en el puente H L298N durante carga.
+
+**Impacto:**
+- Disminución torque motor
+- Fallas de movimiento
+- Reinicios del sistema
+
+**Mitigación:**
+- Capacitores desacoplo
+- Fuente independiente
+- Medición bajo carga
+
+---
+
+### Riesgo Software
+
+**Descripción:** Posibles conflictos entre lectura de sensores y control de movimiento.
+
+**Impacto:**
+- Retrasos
+- Falsas detecciones
+- Respuesta lenta
+
+**Mitigación:**
+- Máquina de estados (FSM)
+- Optimización lógica firmware
+
+---
+
+## 🎯 Próximos Hitos
+
+| Hito | Fecha |
+|---|---:|
+| Integración completa Hardware | 2026-05-28 |
+| Validación sensores | 2026-06-01 |
+| Ejecución protocolos V&V | 2026-06-03 |
+| Actualización Dashboard MAHD | 2026-06-07 |
+| Auditoría técnica | 2026-06-10 |
+| Validación cliente S12 | 2026-06-12 |
+
+---
+
+## 🔗 Evidencias
+
+📁 `/4_Calidad_y_Pruebas/` → Protocolos V&V
+
+📁 `/5_Resultados_Diseno/` → Planos, esquemáticos y CAD
+
+📁 `/media/videos/` → Evidencias de pruebas
+
+📁 `/docs/` → Costos, IPAC y documentación
+
+📊 `Dashboard_MAHD.xlsx`
+
+---
+
+## 🧠 Estado de Ingeniería
+
+> El proyecto evolucionó de una implementación empírica hacia un proceso de ingeniería basado en evidencia, trazabilidad y validación continua mediante Dashboard MAHD.
