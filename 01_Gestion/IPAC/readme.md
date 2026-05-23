@@ -76,15 +76,15 @@
 
 ## 📌 Compromisos para IPAC-04
 
-- [ ] FSM implementada y TEST-FW-01 en estado PASS antes del **2026-06-01**
+- [ ] FSM implementada y TEST-FW-01 en estado PASS antes del **2026-05-01**
 
-- [ ] Sensores recalibrados y TEST-SENS-02 en estado PASS antes del **2026-06-03**
+- [ ] Sensores recalibrados y TEST-SENS-02 en estado PASS antes del **2026-05-03**
 
-- [ ] Estructura reforzada y TEST-MEC-01 re-ejecutado antes del **2026-06-05**
+- [ ] Estructura reforzada y TEST-MEC-01 re-ejecutado antes del **2026-05-05**
 
-- [ ] Sistema de frenado validado y TEST-SEG-01 en estado PASS antes del **2026-06-08**
+- [ ] Sistema de frenado validado y TEST-SEG-01 en estado PASS antes del **2026-05-08**
 
-- [ ] Actualizar Dashboard MAHD con evidencias y resultados antes del **2026-06-10**
+- [ ] Actualizar Dashboard MAHD con evidencias y resultados antes del **2026-05-10**
 
 ---
 
