@@ -7,7 +7,6 @@ Este proyecto **NO requiere la instalación de librerías externas**. Solo se ut
 | Librería | Origen | Propósito |
 |----------|--------|-----------|
 | `Servo.h` | Librería nativa de Arduino | Control del servomotor de rotación continua |
-| `LiquidCrystal.h` | Librería nativa de Arduino | Control de la pantalla LCD 16x2 |
 
 ### ✅ Ventajas de esta decisión
 
@@ -19,4 +18,4 @@ Este proyecto **NO requiere la instalación de librerías externas**. Solo se ut
 
 ```cpp
 #include <Servo.h>           // Nativa de Arduino IDE
-#include <LiquidCrystal.h>   // Nativa de Arduino IDE
+
