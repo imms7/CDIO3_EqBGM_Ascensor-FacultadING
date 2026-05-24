@@ -87,7 +87,7 @@ Ejemplo:
 |---|---|
 | Videos pruebas funcionales | `/media/videos/` |
 | Registro fotográfico | `https://drive.google.com/drive/folders/1fICUxhU2f675gIKxcuumZyQAISuapt35?usp=drive_link` |
-| Dashboard MAHD | README principal |
+| Dashboard MAHD | `https://docs.google.com/spreadsheets/d/1olTbqtsNHQLktUmsNjpX3Kluv0PxCd3aXZpZllkpnQA/edit?gid=1975843790#gid=1975843790` |
 | Protocolos detallados | `https://docs.google.com/spreadsheets/d/1Qz6l84gm7BfC-t2pQ3CDzLB2sKld-PThRO9EJB8Gyu0/edit?gid=0#gid=0` |
 | Retrospectiva IPAC | `https://github.com/imms7/CDIO3_EqBGM_Ascensor-FacultadING/tree/64906521ca02e02b2ccb75d76e8dbfbc6908f9f6/01_Gestion/IPAC` |
 
