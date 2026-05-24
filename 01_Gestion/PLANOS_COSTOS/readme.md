@@ -19,7 +19,7 @@ Establecer un control formal de costos del proyecto, permitiendo:
 
 | Ítem | Componente | Cantidad | Costo Unitario (COP) | Costo Total (COP) | Fuente | Estado |
 |------|------------|----------|----------------------|-------------------|--------|--------|
-| 1 | ESP32 / Microcontrolador | 1 | 28000 | 28000 | Tiendas electrónicas COL | ✅ |
+| 1 | Arduino Uno / Microcontrolador | 1 | 28000 | 28000 | Tiendas electrónicas COL | ✅ |
 | 2 | Sensores fin de carrera | 3 | 5000 | 15000 | Electrónica local | ✅ |
 | 3 | Motor DC | 1 | 6000 | 6000 | Mercado electrónico | ✅ |
 | 4 | Driver de motor (L298N) | 1 | 11000 | 11000 | Tienda electrónica | ✅ |
@@ -71,9 +71,8 @@ Establecer un control formal de costos del proyecto, permitiendo:
 
 | Componente | Evidencia | Ubicación |
 |-----------|----------|----------|
-| ESP32 | Factura / Link de compra | `/docs/costos/` |
+| Arduino Uno| Factura / Link de compra | `/docs/costos/` |
 | Motor DC | Foto + comprobante | `/media/` |
-| Driver L298N | Link proveedor | `/docs/referencias/` |
 | Sensores | Registro fotográfico | `/media/` |
 | Estructura 3D | Archivo STL + foto impresión | `/5_Diseño:_Detallado/` |
 
