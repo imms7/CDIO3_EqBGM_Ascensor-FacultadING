@@ -32,9 +32,9 @@ Esta carpeta constituye el **Dossier de Ingeniería** del proyecto de transporte
 
 | Documento | Formato | Estado |
 | :--- | :--- | :--- |
-| Informe Final CDIO | `.pdf` | 🟡 En Desarrollo |
-| Manual de Operación | `.pdf` | 🟡 En Desarrollo|
-| Matriz de Pruebas | `.xlsx` | 🟡 En Desarrollo |
+| Informe Final CDIO | `.pdf` | 🟡 Desarrollado |
+| Manual de Operación | `.pdf` | 🟡 Desarrollado|
+| Matriz de Pruebas | `.xlsx` | 🟡 Desarrollado |
 
 ---
 *Este dossier sirve como respaldo legal y técnico del proyecto para la Universidad del Quindío.*Manuales finales y validaciones
