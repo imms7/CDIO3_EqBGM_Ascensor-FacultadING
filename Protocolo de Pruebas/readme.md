@@ -1,4 +1,4 @@
-# 🧪 Protocolos de Prueba y Validación 
+
 ---
 
 ## 📌 Resumen Ejecutivo de Pruebas (Fase Actual)
