@@ -152,19 +152,19 @@
 
 :contentReference[oaicite:0]{index=0}
 
-📁 `/4_Calidad_y_Pruebas/` → Protocolos V&V
+📁 `https://github.com/imms7/CDIO3_EqBGM_Ascensor-FacultadING/tree/3c9b2d0ad1103218c737863a28f880567e10d6c6/Protocolo%20de%20Pruebas` → Protocolos de pruebas
 
-📁 `/5_Resultados_Diseno/` → Planos, esquemáticos y CAD
+📁 `https://drive.google.com/drive/folders/1cOEOZe83AWZ37LFHZk9qx8-4vM8ySf8W?usp=drive_link` → Planos, esquemáticos y CAD
 
 📁 `/media/videos/` → Evidencias experimentales y pruebas
 
-📁 `/docs/` → Costos, IPAC y documentación técnica
+📁 `https://drive.google.com/drive/folders/1UvnTcePurC756GzwkTvJ4SNMuztmmq4X?usp=drive_link` → documentación técnica
 
-📄 `Retrospectiva_IPAC.md`
+📄 `https://github.com/imms7/CDIO3_EqBGM_Ascensor-FacultadING/tree/3c9b2d0ad1103218c737863a28f880567e10d6c6/01_Gestion/IPAC`→ IPAC 
 
-📄 `protocolo_costos.md`
+📄 `https://github.com/imms7/CDIO3_EqBGM_Ascensor-FacultadING/tree/3c9b2d0ad1103218c737863a28f880567e10d6c6/01_Gestion/PLANOS_COSTOS` → Costos
 
-📄 `Dashboard_MAHD.xlsx`
+📄 `https://docs.google.com/spreadsheets/d/1olTbqtsNHQLktUmsNjpX3Kluv0PxCd3aXZpZllkpnQA/edit?gid=1975843790#gid=1975843790 ` → Dashboard MAHD
 
 ---
 
