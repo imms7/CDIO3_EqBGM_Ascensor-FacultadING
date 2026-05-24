@@ -10,11 +10,10 @@ En esta sección se listan los componentes encargados del procesamiento, control
 
 | Ítem | Componente | Cant. | Referencia / Especificación | Función | Est. Costo (COP) |
 | :--- | :--- | :---: | :--- | :--- | :---: |
-| 1 | **Microcontrolador** | 1 | ESP32 DevKit V1 | Procesamiento principal | $28.000 |
+| 1 | **Microcontrolador** | 1 | ARDUINO UNO | Procesamiento principal | $48.000 |
 | 2 | **Driver de potencia** | 1 | L298N Dual H-Bridge | Control del motor | $12.000 |
 | 3 | **Sensores fin de carrera** | 3 | Micro Switch KW11 | Detección de posición | $15.000 |
-| 4 | **Pantalla LCD** | 1 | LCD 16x2 + módulo I2C | Interfaz visual | $18.000 |
-| 5 | **Protoboard / PCB** | 1 | Universal doble cara | Integración electrónica | $8.000 |
+| 4 | **Protoboard / PCB** | 1 | Universal doble cara | Integración electrónica | $8.000 |
 
 ---
 
@@ -56,7 +55,7 @@ A continuación se presenta un resumen consolidado de los costos estimados por c
 
 ## 📍 Proveedores Recomendados
 
-* Arduino UNO y L298N: Electrónicas locales / MercadoLibre  
+* Arduino UNO  : Electrónicas locales / MercadoLibre  
 * Motores y fuentes: Electronilab / Arduino Colombia  
 * Impresión 3D: Laboratorio Universidad del Quindío  
 * Sensores: Didácticas Electrónicas / Maker Colombia  
