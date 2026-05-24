@@ -44,36 +44,21 @@ Elementos encargados del movimiento y estructura física.
 
 ## 💰 Resumen de Presupuesto
 
+A continuación se presenta un resumen consolidado de los costos estimados por categoría, permitiendo visualizar la distribución del presupuesto total del sistema por unidad.
+
 | Categoría | Subtotal Estimado |
 | :--- | :--- |
 | Electrónica y Sensores | $81.000 |
-| Potencia y Energía | $35.000 |
-| Mecánica e Insumos | $88.000 |
-| **TOTAL POR UNIDAD** | **$204.000 COP** |
-
-*(Precios estimados según mercado colombiano — Armenia, MercadoLibre, Electrónicas locales y proveedores Maker, actualización 2026.)*
+| Potencia y Energía | $32.500 |
+| Mecánica e Insumos | $57.000 |
 
 ---
 
 ## 📍 Proveedores Recomendados
 
-* ESP32 y L298N: Electrónicas locales / MercadoLibre  
+* Arduino UNO y L298N: Electrónicas locales / MercadoLibre  
 * Motores y fuentes: Electronilab / Arduino Colombia  
 * Impresión 3D: Laboratorio Universidad del Quindío  
 * Sensores: Didácticas Electrónicas / Maker Colombia  
 
 ---
-
-## 🔍 Evidencias Asociadas
-
-| Evidencia | Ubicación |
-|---|---|
-| Facturas y cotizaciones | `/docs/costos/` |
-| Fotografías componentes | `/media/fotos/` |
-| Dashboard MAHD | README principal |
-| Protocolos V&V | `/4_Calidad_y_Pruebas/` |
-| Videos pruebas | `/media/videos/` |
-
----
-
-> 🚨 Todo componente incluido en el BOM debe poseer evidencia verificable para auditoría MAHD.
