@@ -1,4 +1,4 @@
-# 🧪 Protocolos de Prueba y Validación (Test Reports)
+# 🧪 Protocolos de Prueba y Validación 
 
 Este directorio contiene los reportes oficiales de pruebas ejecutadas para el proyecto **Ascensor Facultad Ingeniería UQ**. Todas las validaciones siguen criterios de calidad e ingeniería definidos bajo metodología **CDIO + MAHD**, eliminando subjetividad y respaldando resultados mediante **datos medibles y tolerancias verificables**.
 
@@ -86,7 +86,7 @@ Ejemplo:
 | Evidencia | Ubicación |
 |---|---|
 | Videos pruebas funcionales | `/media/videos/` |
-| Registro fotográfico | `/media/fotos/` |
+| Registro fotográfico | `https://drive.google.com/drive/folders/1fICUxhU2f675gIKxcuumZyQAISuapt35?usp=drive_link` |
 | Dashboard MAHD | README principal |
 | Protocolos detallados | `/4_Calidad_y_Pruebas/` |
 | Retrospectiva IPAC | `/docs/Retrospectiva_IPAC.md` |
