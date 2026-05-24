@@ -156,7 +156,6 @@
 
 📁 `https://drive.google.com/drive/folders/1cOEOZe83AWZ37LFHZk9qx8-4vM8ySf8W?usp=drive_link` → Planos, esquemáticos y CAD
 
-📁 `/media/videos/` → Evidencias experimentales y pruebas
 
 📁 `https://drive.google.com/drive/folders/1UvnTcePurC756GzwkTvJ4SNMuztmmq4X?usp=drive_link` → documentación técnica
 
