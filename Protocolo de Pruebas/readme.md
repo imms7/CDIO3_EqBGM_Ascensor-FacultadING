@@ -88,8 +88,8 @@ Ejemplo:
 | Videos pruebas funcionales | `/media/videos/` |
 | Registro fotográfico | `https://drive.google.com/drive/folders/1fICUxhU2f675gIKxcuumZyQAISuapt35?usp=drive_link` |
 | Dashboard MAHD | README principal |
-| Protocolos detallados | `/4_Calidad_y_Pruebas/` |
-| Retrospectiva IPAC | `/docs/Retrospectiva_IPAC.md` |
+| Protocolos detallados | `https://docs.google.com/spreadsheets/d/1Qz6l84gm7BfC-t2pQ3CDzLB2sKld-PThRO9EJB8Gyu0/edit?gid=0#gid=0` |
+| Retrospectiva IPAC | `https://github.com/imms7/CDIO3_EqBGM_Ascensor-FacultadING/tree/64906521ca02e02b2ccb75d76e8dbfbc6908f9f6/01_Gestion/IPAC` |
 
 ---
 
