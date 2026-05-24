@@ -150,7 +150,7 @@
 
 📊 Dashboard MAHD:
 
-:contentReference[oaicite:0]{index=0}
+📄 `https://docs.google.com/spreadsheets/d/1olTbqtsNHQLktUmsNjpX3Kluv0PxCd3aXZpZllkpnQA/edit?gid=1975843790#gid=1975843790 ` → Dashboard MAHD
 
 📁 `https://github.com/imms7/CDIO3_EqBGM_Ascensor-FacultadING/tree/3c9b2d0ad1103218c737863a28f880567e10d6c6/Protocolo%20de%20Pruebas` → Protocolos de pruebas
 
@@ -164,7 +164,7 @@
 
 📄 `https://github.com/imms7/CDIO3_EqBGM_Ascensor-FacultadING/tree/3c9b2d0ad1103218c737863a28f880567e10d6c6/01_Gestion/PLANOS_COSTOS` → Costos
 
-📄 `https://docs.google.com/spreadsheets/d/1olTbqtsNHQLktUmsNjpX3Kluv0PxCd3aXZpZllkpnQA/edit?gid=1975843790#gid=1975843790 ` → Dashboard MAHD
+
 
 ---
 
