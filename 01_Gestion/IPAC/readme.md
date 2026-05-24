@@ -49,8 +49,8 @@
 
 ##  Acciones Correctivas Implementadas / Planificadas
 
-| # | Acción | Tipo | Estado | Responsable |
-|---|---|---|---|---|
+| # | Acción | Tipo | Estado | 
+|---|---|---|---|
 | 01 | Separar control de sensores y lógica de movimiento mediante máquina de estados (FSM) | Firmware | 🚧 En progreso | 
 | 02 | Implementar filtrado y desacoplo eléctrico para sensores | Hardware | 📋 Planificado | 
 | 03 | Reforzar estructura y ajustar alineación mecánica | Mecánica | 🚧 En progreso |
