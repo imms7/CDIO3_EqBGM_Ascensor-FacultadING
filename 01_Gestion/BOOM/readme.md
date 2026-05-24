@@ -1,13 +1,79 @@
-BOOM
+#  Lista de Materiales (Bill of Materials - BOM)
 
-# 📋 BOM - Lista de Materiales (Bill of Materials)
+Este documento detalla todos los componentes electrónicos, electromecánicos, materiales de manufactura y costos estimados necesarios para ensamblar **una (1) unidad** del sistema **Ascensor Facultad Ingeniería UQ**.
 
-| Componente | Cantidad | Especificación | Referencia Datasheet |
-| :--- | :---: | :--- | :--- |
-| **Microcontrolador** | 1 | Arduino Uno R3 / Nano | A000066 |
-| **Actuadores** | 1 | Servomotor SG 90 | Servo SG 90 |
-| **Interfaz** | 3 | Pulsadores NA 4 pines | PUSH-4 |
-| **Estructura** | 1 | Set de piezas MDF / Impresión 3D | Archivos STL |
-| **Alimentación** | 1 | Fuente de poder 5V 2A | - |
+---
 
-> **Nota:** Todos los componentes fueron seleccionados considerando la normativa de seguridad para sistemas de elevación según el archivo `Leyes y normativas - CDIO3.pdf`.
+##  Electrónica Principal
+
+En esta sección se listan los componentes encargados del procesamiento, control y adquisición del sistema. Constituyen el núcleo funcional del ascensor.
+
+| Ítem | Componente | Cant. | Referencia / Especificación | Función | Est. Costo (COP) |
+| :--- | :--- | :---: | :--- | :--- | :---: |
+| 1 | **Microcontrolador** | 1 | ESP32 DevKit V1 | Procesamiento principal | $28.000 |
+| 2 | **Driver de potencia** | 1 | L298N Dual H-Bridge | Control del motor | $12.000 |
+| 3 | **Sensores fin de carrera** | 3 | Micro Switch KW11 | Detección de posición | $15.000 |
+| 4 | **Pantalla LCD** | 1 | LCD 16x2 + módulo I2C | Interfaz visual | $18.000 |
+| 5 | **Protoboard / PCB** | 1 | Universal doble cara | Integración electrónica | $8.000 |
+
+---
+
+## 🔋 Sistema de Potencia
+
+Componentes responsables del suministro energético y estabilidad eléctrica.
+
+| Ítem | Componente | Cant. | Referencia / Especificación | Función | Est. Costo (COP) |
+| :--- | :--- | :---: | :--- | :--- | :---: |
+| 6 | **Fuente DC** | 1 | 12V — 2A | Alimentación principal | $22.000 |
+| 7 | **Regulador Step Down** | 1 | LM2596 | Regulación de voltaje | $8.000 |
+| 8 | **Interruptor** | 1 | SPDT Mini | Encendido general | $2.500 |
+
+---
+
+## 🛠️ Actuación y Mecánica
+
+Elementos encargados del movimiento y estructura física.
+
+| Ítem | Componente | Cant. | Referencia / Especificación | Función | Est. Costo (COP) |
+| :--- | :--- | :---: | :--- | :--- | :---: |
+| 9 | **Motor DC Alto Torque** | 1 | Motorreductor 12V | Movimiento vertical | $35.000 |
+| 10 | **Filamento impresión 3D** | ~50g | PLA/PETG | Fabricación estructura | $10.000 |
+| 11 | **Cableado + conectores** | Kit | Jumpers y terminales | Interconexión | $12.000 |
+
+---
+
+## 💰 Resumen de Presupuesto
+
+| Categoría | Subtotal Estimado |
+| :--- | :--- |
+| Electrónica y Sensores | $81.000 |
+| Potencia y Energía | $35.000 |
+| Mecánica e Insumos | $88.000 |
+| **TOTAL POR UNIDAD** | **$204.000 COP** |
+
+*(Precios estimados según mercado colombiano — Armenia, MercadoLibre, Electrónicas locales y proveedores Maker, actualización 2026.)*
+
+---
+
+## 📍 Proveedores Recomendados
+
+* ESP32 y L298N: Electrónicas locales / MercadoLibre  
+* Motores y fuentes: Electronilab / Arduino Colombia  
+* Impresión 3D: Laboratorio Universidad del Quindío  
+* Sensores: Didácticas Electrónicas / Maker Colombia  
+
+---
+
+## 🔍 Evidencias Asociadas
+
+| Evidencia | Ubicación |
+|---|---|
+| Facturas y cotizaciones | `/docs/costos/` |
+| Fotografías componentes | `/media/fotos/` |
+| Dashboard MAHD | README principal |
+| Protocolos V&V | `/4_Calidad_y_Pruebas/` |
+| Videos pruebas | `/media/videos/` |
+
+---
+
+> 🚨 Todo componente incluido en el BOM debe poseer evidencia verificable para auditoría MAHD.
