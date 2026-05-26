@@ -35,7 +35,9 @@ A continuación se comparan los requisitos funcionales definidos para el ascenso
 | **RF-05** | Suministro de energía estable (220 V AC, RETIE, UPS ≥ 30 min). | Alimentación 5 V USB (Arduino) o batería externa. | ✅ **Cumplido** (concepto de autonomía) | Se verifica que el consumo es bajo (~280 mA para el servo, 40 mA para Arduino). El diseño final requerirá una fuente dimensionada, pero el concepto de gestión energética se valida. |
 
 **Leyenda:** ✅ Cumplido / ⚠️ Parcial (a escala) / ❌ No aplica en prototipo
-
+---
+**Link a los requerimientos del cliente:**
+https://docs.google.com/document/d/14yE5HfV0ep8hWnqODnz2OUWOnUsqwVMv/edit
 ---
 
 ## 🖼️ Imagen del prototipo a escala funcional
