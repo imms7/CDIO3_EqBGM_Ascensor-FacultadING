@@ -1,10 +1,10 @@
-# README.md - Proyecto Ascensor Autoportante para la Facultad de Ingeniería Electrónica
+# README.md - Proyecto Ascensor para la Facultad de Ingeniería
 
 ## 📌 Introducción
 
-El presente proyecto consiste en el **diseño e implementación de un sistema de elevación electromecánico autoportante**, destinado a cerrar la brecha de movilidad en el edificio de la Facultad de Ingeniería Electrónica de la Universidad del Quindío. Actualmente, la infraestructura cuenta con una rampa que solo permite acceder hasta el segundo nivel, limitando el desplazamiento de estudiantes, docentes y personal con movilidad reducida hacia los pisos superiores (3 y 4).  
+El presente proyecto consiste en el **diseño e implementación de un sistema de elevación electromecánico autoportante**, destinado a cerrar la brecha de movilidad en el edificio de la Facultad de Ingeniería de la Universidad del Quindío. Actualmente, la infraestructura cuenta con una rampa que solo permite acceder hasta el segundo nivel, limitando el desplazamiento de estudiantes, docentes y personal con movilidad reducida hacia los pisos superiores (3 y 4).  
 
-Nuestro equipo —integrado por **Gabriela Elith Castro Pérez**, **Brayan Stiven Barragán Jansasoy** y **Michel Dayanna Villarreal Buitrago**— se encuentra en la fase de **diseño detallado**, con el objetivo de construir posteriormente un **prototipo a escala funcional** que demuestre la viabilidad técnica y operativa de la solución.
+Nuestro equipo —integrado por **Gabriela Elith Castro Pérez**, **Brayan Stiven Barragán Jansasoy** y **Michel Dayanna Villarreal Buitrago**— con el objetivo de construir posteriormente un **prototipo a escala funcional** que demuestre la viabilidad técnica y operativa de la solución.
 
 ---
 
@@ -22,19 +22,25 @@ Nuestro equipo —integrado por **Gabriela Elith Castro Pérez**, **Brayan Stive
 
 A continuación se evalúa, según nuestro criterio técnico, el cumplimiento de cada requisito definido en la **Matriz de Requerimientos** (documento oficial del proyecto) para el **prototipo a escala funcional**.
 
-| Código | Descripción del requisito | ¿Se cumple en el prototipo a escala? | Justificación |
-|--------|---------------------------|----------------------------------------|----------------|
-| **RF-01** | Elevar y descender la cabina entre pisos 2 a 4, con carga ≤430 kg, velocidad 0.5–1 m/s, nivelación ±10 mm. | **Parcialmente** | A escala, la carga máxima será reducida (ej. 5 kg) y la velocidad será proporcional a la altura real. Sin embargo, se demostrará el control de posición, arranque/parada suave y nivelación mediante sensores. La tracción y el variador se implementan a escala. |
-| **RF-02** | Gestionar órdenes de llamada interna/externa sin conflicto, tiempo respuesta ≤10 s, registro ≥1000 eventos. | **Sí** | El controlador (PLC o microcontrolador) procesará múltiples llamadas, implementará algoritmo de cola y optimización de paradas. El registro de eventos se almacenará en memoria no volátil. El tiempo de respuesta a escala será incluso menor. |
-| **RF-03** | Permitir acceso autónomo a personas con discapacidad: puerta ≥80 cm, dimensiones cabina ≥1100×1400 mm, botonera Braille, piso antideslizante. | **Parcialmente** | En el prototipo a escala las dimensiones se reducen proporcionalmente, pero se incluirán **todos los elementos funcionales**: botonera Braille a escala, puerta corrediza operativa y superficie antideslizante. El principio de accesibilidad se valida. |
-| **RF-04** | Supervisar y proteger: detección de sobrevelocidad (≥115%), activación freno ≤0.5 s, alarma ≥85 dB, rescate automático. | **Sí (en simulación de fallas)** | El sistema de control detectará condiciones anómalas (velocidad excesiva, puerta abierta en marcha, pérdida de tensión) y activará un freno electromecánico de respuesta inmediata. La alarma será sonora (buzzer) y el rescate automático se simulará mediante un circuito de respaldo. |
-| **RF-05** | Suministrar energía estable 220V AC, UPS ≥30 min, cumplimiento RETIE. | **Parcialmente** | El prototipo funcionará con 24V DC o 110V AC (según seguridad). Se incluirá una fuente regulada y un sistema de baterías para simular el UPS (autonomía reducida a ~10 min, suficiente para pruebas). Los principios de puesta a tierra y protección RETIE se documentan y aplican a escala. |
+## 🧩 Cruce de requisitos funcionales vs. logros del prototipo
 
-> **Conclusión del cruce:** El 100% de los requisitos funcionales clave (RF-02 y RF-04) se cumplen plenamente en el prototipo. Los requisitos con condicionantes de escala (RF-01, RF-03, RF-05) se validan en principio mediante **demostración de funcionalidad equivalente** (escalado de magnitudes, pero manteniendo la lógica de control y los mecanismos de seguridad). Esto es suficiente para una prueba de concepto.
+A continuación se comparan los requisitos funcionales definidos para el ascensor real (edificio) con lo alcanzado en el **prototipo a escala**, justificando su rol como **prueba de concepto**.
+
+| Código | Requerimiento (edificio real) | Logro en prototipo a escala | Estado | Justificación (prueba de concepto) |
+|--------|-------------------------------|----------------------------|--------|--------------------------------------|
+| **RF-01** | Elevar/descender cabina con carga ≤ 430 kg, velocidad 0.5‑1 m/s, nivelación ±10 mm. | Cabina sube/baja con 100 g (≈1 N) a ~4 cm/s, precisión de parada ±1 mm. | ⚠️ **Parcial** (a escala) | Se demuestra el principio físico de tracción (polea + servo), control PWM y detención por tiempo calibrado. La geometría, fricción y alineación validan la viabilidad del mecanismo a escala real. |
+| **RF-02** | Gestionar llamadas internas/externas, tiempo respuesta ≤ 10 s. | Tres pulsadores (P1, P2, P3), lógica de estado (`actual`), respuesta inmediata (< 1 s). | ✅ **Cumplido** (en lógica) | La máquina de estados implementada (Arduino) procesa correctamente las solicitudes, evita movimientos redundantes y decide dirección. Es directamente escalable a un PLC industrial. |
+| **RF-03** | Acceso para personas con discapacidad (puerta ≥ 80 cm, botonera braille). | No implementado en prototipo. | ❌ **No aplica** en esta fase | La prueba de concepto se enfoca en el núcleo de control y tracción. La accesibilidad se resolverá en la versión de escala real mediante componentes comerciales (botones braille, puertas anchas). |
+| **RF-04** | Supervisión y seguridad (freno ≤ 0.5 s, alarma ≥ 85 dB, rescate automático). | Sin freno de emergencia ni alarma. | ❌ **No aplica** en prototipo | La seguridad crítica se implementará en el diseño final. El prototipo demuestra que el sistema puede detenerse de forma controlada (servo.write(93)) y que los sensores (finales de carrera simulados por tiempo) pueden activar paradas. |
+| **RF-05** | Suministro de energía estable (220 V AC, RETIE, UPS ≥ 30 min). | Alimentación 5 V USB (Arduino) o batería externa. | ⚠️ **Parcial** (concepto de autonomía) | Se verifica que el consumo es bajo (~280 mA para el servo, 40 mA para Arduino). El diseño final requerirá una fuente dimensionada, pero el concepto de gestión energética se valida. |
+
+**Leyenda:** ✅ Cumplido / ⚠️ Parcial (a escala) / ❌ No aplica en protot
 
 ---
 
 ## 🖼️ Imagen del prototipo a escala funcional
+
+https://drive.google.com/file/d/1tvEoEWp8GQCeBsLZhC72FX6D5JAd6xQR/view?usp=drive_link
 
 *(La imagen se insertará una vez construido el prototipo; actualmente en fase de diseño)*
 
