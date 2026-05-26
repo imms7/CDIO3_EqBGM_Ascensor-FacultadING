@@ -40,7 +40,7 @@ A continuación se comparan los requisitos funcionales definidos para el ascenso
 https://docs.google.com/document/d/14yE5HfV0ep8hWnqODnz2OUWOnUsqwVMv/edit
 ---
 
-## 🖼️ Imagen del prototipo a escala funcional
+## 🖼️ Imagen de la implementacion en la facultad
 
 https://drive.google.com/file/d/1tvEoEWp8GQCeBsLZhC72FX6D5JAd6xQR/view?usp=drive_link
 ---
